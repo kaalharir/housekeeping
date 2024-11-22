@@ -1,5 +1,23 @@
+/**
+Challenge: Place the gray react logo in the background
+
+Don't use an 'img' element, but rather set it as the 'background-image'
+of the 'main' element.
+
+Hint: you'll need to use the following properties:
+  - background-iamge: url(...)
+  - background-repeat
+  - background-position
+
+(Or the shorthand 'background' property with values for all
+those other properties
+*/
+
 * {
   box-sizing: border-box;
+  /* background-image: url(assets/OIP.jfif); */
+  /* background-image: url(assets/OIP.jpg); */
+
 }
 
 body {
@@ -31,6 +49,11 @@ nav > span {
 }
 main {
   padding: 60px 30px;
+  background-image: url(assets/OIP.jpg);
+  background-repeat: no-repeat;
+  background-position: right 65%;
+  /* background-position-x: right; */
+  /* background-position-y: 65%; */
 }
 main > h1 {
   margin: 0;
